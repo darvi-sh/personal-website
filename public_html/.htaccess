@@ -1,0 +1,7 @@
+Redirect 302 / http://darvishzadeh.com/
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
