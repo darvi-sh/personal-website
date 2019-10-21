@@ -52,7 +52,7 @@
 				display: none;
 			}
 
-			summary:before {
+			summary::before {
 				content: "\203A";
 				float: left;
 				font-size: 1.5em;
@@ -64,7 +64,7 @@
 				position: absolute;
 			}
 
-			details[open] summary:before {
+			details[open] summary::before {
 				transform: rotate(90deg) translate(-1px, -3px);
 			}
 
@@ -109,7 +109,7 @@
 				position: relative;
 			}
 
-			.work-timeline-list:before {
+			.work-timeline-list::before {
 				content: "";
 				width: 3px;
 				background: linear-gradient(
@@ -121,7 +121,7 @@
 				position: absolute;
 				height: calc(100% - 100px);
 				top: 15px;
-				left: 150px;
+				left: 155px;
 			}
 
 			.work-timeline-list a {
@@ -129,7 +129,7 @@
 				font-weight: bold;
 			}
 
-			.work-timeline-list a:before {
+			.work-timeline-list a::before {
 				content: attr(data-work-period);
 				left: -170px;
 				position: absolute;
@@ -137,7 +137,7 @@
 				font-weight: normal;
 				font-size: 12px;
 				text-align: right;
-				width: 120px;
+				width: 130px;
 				color: darkgrey;
 				pointer-events: none;
 			}
@@ -147,13 +147,13 @@
 				position: relative;
 			}
 
-			dt:before {
+			dt::before {
 				content: "\2219";
 				font-size: 60px;
 				font-family: monospace;
 				color: gainsboro;
 				position: absolute;
-				left: -40px;
+				left: -35px;
 				top: -4px;
 				text-shadow: 0px 2px 0px white, 0px -2px 0px white;
 			}
