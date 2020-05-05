@@ -1,2 +1,2 @@
-# sonny.tech
-the source code of my tiny-resume-style website at [sonny.tech](https://sonny.tech)
+# darvi.sh
+the *backbone* of my tiny-resume-style website at [darvi.sh](https://darvi.sh)
